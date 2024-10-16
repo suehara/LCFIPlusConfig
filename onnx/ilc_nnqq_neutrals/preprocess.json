@@ -1,0 +1,635 @@
+{
+  "output_names": [
+    "mc_b",
+    "mc_c",
+    "mc_d"
+  ],
+  "input_names": [
+    "pf_features",
+    "pf_vectors",
+    "pf_mask",
+    "neu_features",
+    "neu_vectors",
+    "neu_mask"
+  ],
+  "pf_features": {
+    "var_names": [
+      "pfcand_btagSip2dVal",
+      "pfcand_erel_log",
+      "pfcand_thetarel",
+      "pfcand_phirel",
+      "pfcand_dptdpt",
+      "pfcand_detadeta",
+      "pfcand_dphidphi",
+      "pfcand_dxydxy",
+      "pfcand_dzdz",
+      "pfcand_dxydz",
+      "pfcand_dphidxy",
+      "pfcand_dlambdadz",
+      "pfcand_dxyc",
+      "pfcand_dxyctgtheta",
+      "pfcand_phic",
+      "pfcand_phidz",
+      "pfcand_phictgtheta",
+      "pfcand_cdz",
+      "pfcand_cctgtheta",
+      "pfcand_charge",
+      "pfcand_dxy",
+      "pfcand_dz",
+      "pfcand_btagSip2dVal",
+      "pfcand_btagSip2dSig",
+      "pfcand_btagSip3dVal",
+      "pfcand_btagSip3dSig",
+      "pfcand_btagJetDistVal",
+      "pfcand_btagJetDistSig"
+    ],
+    "var_infos": {
+      "pfcand_btagSip2dVal": {
+        "median": 0.002195989014580846,
+        "norm_factor": 8.265955670995083,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_erel_log": {
+        "median": -1.7539018392562866,
+        "norm_factor": 1.6524261025886673,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_thetarel": {
+        "median": 0.4122861325740814,
+        "norm_factor": 1.4259230188027898,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_phirel": {
+        "median": -0.002565347822383046,
+        "norm_factor": 0.45810645885095985,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dptdpt": {
+        "median": 1.7034481464284212e-12,
+        "norm_factor": 722376237.0101495,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_detadeta": {
+        "median": 1.6151761883520521e-06,
+        "norm_factor": 19925.30447103556,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dphidphi": {
+        "median": 1.0214026815447141e-06,
+        "norm_factor": 45670.69266177092,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dxydxy": {
+        "median": 0.0003075944259762764,
+        "norm_factor": 79.53815791568881,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dzdz": {
+        "median": 0.0004793255648110062,
+        "norm_factor": 28.157790822838773,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dxydz": {
+        "median": 2.106096894105569e-11,
+        "norm_factor": 52908.97980329884,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dphidxy": {
+        "median": -1.766787318047136e-05,
+        "norm_factor": 1843.1035299272794,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dlambdadz": {
+        "median": -2.7792197215603665e-05,
+        "norm_factor": 766.845628771865,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dxyc": {
+        "median": -6.248067618841446e-10,
+        "norm_factor": 596104.9085545299,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dxyctgtheta": {
+        "median": -5.0566634213211614e-12,
+        "norm_factor": 756790.107959818,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_phic": {
+        "median": 4.93971738513288e-11,
+        "norm_factor": 13944743.384752637,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_phidz": {
+        "median": -4.7841730577147246e-12,
+        "norm_factor": 713858.3703137997,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_phictgtheta": {
+        "median": 2.935989328717824e-14,
+        "norm_factor": 8680979.122114863,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_cdz": {
+        "median": -7.064417410426738e-14,
+        "norm_factor": 8544152.879764969,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_cctgtheta": {
+        "median": 1.5819695542689666e-15,
+        "norm_factor": 166914610.8177475,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_charge": {
+        "median": 1.0,
+        "norm_factor": 0.5,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dxy": {
+        "median": -6.935362034710124e-05,
+        "norm_factor": 16.272766198298015,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_dz": {
+        "median": -1.6320487702614628e-05,
+        "norm_factor": 6.085867541431253,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_btagSip2dSig": {
+        "median": 0.18471451103687286,
+        "norm_factor": 0.22786450001670439,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_btagSip3dVal": {
+        "median": 0.02964681014418602,
+        "norm_factor": 2.913979439633433,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_btagSip3dSig": {
+        "median": 0.5149773359298706,
+        "norm_factor": 0.04849100222605454,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_btagJetDistVal": {
+        "median": -9.449104982195422e-05,
+        "norm_factor": 6.561548966060257,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "pfcand_btagJetDistSig": {
+        "median": -0.0013074508169665933,
+        "norm_factor": 0.14684271322980405,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      }
+    },
+    "var_length": 75
+  },
+  "pf_vectors": {
+    "var_names": [
+      "pfcand_px",
+      "pfcand_py",
+      "pfcand_pz",
+      "pfcand_e"
+    ],
+    "var_infos": {
+      "pfcand_px": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      },
+      "pfcand_py": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      },
+      "pfcand_pz": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      },
+      "pfcand_e": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      }
+    },
+    "var_length": 75
+  },
+  "pf_mask": {
+    "var_names": [
+      "pfcand_mask"
+    ],
+    "var_infos": {
+      "pfcand_mask": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      }
+    },
+    "var_length": 75
+  },
+  "neu_features": {
+    "var_names": [
+      "neu_pfcand_btagSip2dVal",
+      "neu_pfcand_erel_log",
+      "neu_pfcand_thetarel",
+      "neu_pfcand_phirel",
+      "neu_pfcand_dptdpt",
+      "neu_pfcand_detadeta",
+      "neu_pfcand_dphidphi",
+      "neu_pfcand_dxydxy",
+      "neu_pfcand_dzdz",
+      "neu_pfcand_dxydz",
+      "neu_pfcand_dphidxy",
+      "neu_pfcand_dlambdadz",
+      "neu_pfcand_dxyc",
+      "neu_pfcand_dxyctgtheta",
+      "neu_pfcand_phic",
+      "neu_pfcand_phidz",
+      "neu_pfcand_phictgtheta",
+      "neu_pfcand_cdz",
+      "neu_pfcand_cctgtheta",
+      "neu_pfcand_charge",
+      "neu_pfcand_dxy",
+      "neu_pfcand_dz",
+      "neu_pfcand_btagSip2dVal",
+      "neu_pfcand_btagSip2dSig",
+      "neu_pfcand_btagSip3dVal",
+      "neu_pfcand_btagSip3dSig",
+      "neu_pfcand_btagJetDistVal",
+      "neu_pfcand_btagJetDistSig"
+    ],
+    "var_infos": {
+      "neu_pfcand_btagSip2dVal": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_erel_log": {
+        "median": -1.9759552478790283,
+        "norm_factor": 1.6871173590265023,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_thetarel": {
+        "median": 0.38696131110191345,
+        "norm_factor": 1.5159274376975356,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_phirel": {
+        "median": 0.005230331793427467,
+        "norm_factor": 0.4510870775538192,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dptdpt": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_detadeta": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dphidphi": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dxydxy": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dzdz": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dxydz": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dphidxy": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dlambdadz": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dxyc": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dxyctgtheta": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_phic": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_phidz": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_phictgtheta": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_cdz": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_cctgtheta": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_charge": {
+        "median": 0.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dxy": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_dz": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_btagSip2dSig": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_btagSip3dVal": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_btagSip3dSig": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_btagJetDistVal": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      },
+      "neu_pfcand_btagJetDistSig": {
+        "median": -9.0,
+        "norm_factor": 1.0,
+        "replace_inf_value": 0,
+        "lower_bound": -5,
+        "upper_bound": 5,
+        "pad": 0
+      }
+    },
+    "var_length": 75
+  },
+  "neu_vectors": {
+    "var_names": [
+      "neu_pfcand_px",
+      "neu_pfcand_py",
+      "neu_pfcand_pz",
+      "neu_pfcand_e"
+    ],
+    "var_infos": {
+      "neu_pfcand_px": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      },
+      "neu_pfcand_py": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      },
+      "neu_pfcand_pz": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      },
+      "neu_pfcand_e": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      }
+    },
+    "var_length": 75
+  },
+  "neu_mask": {
+    "var_names": [
+      "neu_pfcand_mask"
+    ],
+    "var_infos": {
+      "neu_pfcand_mask": {
+        "median": 0,
+        "norm_factor": 1,
+        "replace_inf_value": 0,
+        "lower_bound": -1e+32,
+        "upper_bound": 1e+32,
+        "pad": 0
+      }
+    },
+    "var_length": 75
+  }
+}
