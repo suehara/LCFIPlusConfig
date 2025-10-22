@@ -9,6 +9,9 @@ Network files for flavor tagging
 - ilc_nnqq_strainge_cpidprob_mcpdg
   11-category training by ZH->nnjj (j = b, c, s, d, u + anti-quarks + g)
 
+3-category is expected to be used without any modification from mc-2020 sample.
+6- and 11-category need reprocessing with Comprehensive PID for mc-2020 sample.
+
 [ILD SGV fast simulation]
 - ilc_nnqq_fastsim_new
   3-category training, 800k jet each for training, sample produced in Jul. 2024
