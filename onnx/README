@@ -1,0 +1,18 @@
+Network files for flavor tagging
+22 Oct. 2025 / suehara
+
+[ILD full simulation, 800k jet each for training]
+- ilc_nnqq_neutrals
+  3-category training by ZH->nnjj (j = b, c, d)
+- ilc_nnqq_strange_cpidfullprob
+  6-category training by ZH->nnjj (j = b, c, s, d, u, g)
+- ilc_nnqq_strainge_cpidprob_mcpdg
+  11-category training by ZH->nnjj (j = b, c, s, d, u + anti-quarks + g)
+
+[ILD SGV fast simulation]
+- ilc_nnqq_fastsim_new
+  3-category training, 800k jet each for training, sample produced in Jul. 2024
+- ilc_nnqq_sgvnew_3cat_cut
+  3-category training, 800k jets each for training, sample produced in Feb. 2025
+- ilc_nnqq_sgv1m_11cat
+  11-category training, 800k jets each for training, sample produced in Feb. 2025
